@@ -14,7 +14,7 @@ function App() {
           <VendorSelect />
         </div>
       </Content>
-      <Footer>Footer</Footer>
+      <Footer>https://github.com/ckriutz/autocomplete-ui-poc</Footer>
     </Layout>
 
     

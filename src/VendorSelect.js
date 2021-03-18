@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AutoComplete } from 'antd';
 
 const Complete = () => {
-    const [value, setValue] = useState('');
+    //const [value, setValue] = useState('');
     const [options, setOptions] = useState([]);
     
     const onSearch = (searchText) => {
@@ -13,9 +13,9 @@ const Complete = () => {
         console.log('onSelect', data);
     };
     
-    const onChange = (data) => {
-        setValue(data);
-    };
+    //const onChange = (data) => {
+    //    setValue(data);
+    //};
 
     const getData = (data) => {
         fetch('https://casey-autocomplete-poc.azurewebsites.net/SimpleAutoComplete?highlights=false&fuzzzy=true&term=' + data)
